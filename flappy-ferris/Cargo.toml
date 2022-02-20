@@ -1,0 +1,10 @@
+[package]
+name = "flappy_ferris"
+version = "0.1.0"
+authors = ["Georgi Sabev <geosabev@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+ggez = "0.7.0"
+nalgebra = { version = "0.30.1", features = ["mint"] }
+rand = "0.8.5"
